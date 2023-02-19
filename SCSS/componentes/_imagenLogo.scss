@@ -1,0 +1,10 @@
+.imagenLogo {
+    /* haciendo uso del MIXIN */
+    @include ancho_alto(40px, 40px);
+    transition: all 1s;
+
+    &:hover {
+        @include ancho_alto(100px, 100px);
+        padding: 15px;
+    }
+}

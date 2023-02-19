@@ -1,0 +1,13 @@
+li {
+    display:inline-block;
+    font-style: normal;
+    font-size:25px;
+    font-family: "Arial";
+    color: $menu;
+    transition: all 0.25s;
+
+    &:hover {
+        font-size: 30px;
+        padding: 15px;
+    }
+}

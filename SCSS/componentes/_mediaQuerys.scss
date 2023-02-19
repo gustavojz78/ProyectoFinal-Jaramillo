@@ -1,0 +1,98 @@
+/* sección de GRIDS II */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #gridContainer {
+        display: grid;
+        /*recordar que estos nombres solo son referenciales, puedo llamar las clases del grid como quiera */
+        grid-template-areas:
+            "encabezado"
+            "principal"
+            "publicidad"
+            "piePagina";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+
+    }
+
+    .encabezado {
+        grid-area: encabezado;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .principal {
+        grid-area: principal;
+        margin-top: 350px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .publicidad {
+        grid-area: publicidad;
+        background-color: $primario;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+
+        animation-name: colores;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+    }
+
+    .pieDePagina {
+        grid-area: pieDePagina;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #gridContainer {
+        display: grid;
+        /*recordar que estos nombres solo son referenciales, puedo llamar las clases del grid como quiera */
+        grid-template-areas:
+            "principal principal publicidad"
+            "principal principal publicidad"
+        ;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto;
+    }
+
+    .encabezado {
+        grid-area: encabezado;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .principal {
+        grid-area: principal;
+        margin-top: 180px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .publicidad {
+        grid-area: publicidad;
+        /* haciendo uso de las variables cpn los colores */
+        background-color: $primario;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+        align-content: center;
+
+        animation-name: colores;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+    }
+
+    .pieDePagina {
+        grid-area: pieDePagina;
+        justify-content: center;
+        text-align: center;
+    }
+}

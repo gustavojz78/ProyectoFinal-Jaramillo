@@ -1,0 +1,29 @@
+#gradiente {
+    background-image: linear-gradient($secundario,$primario);
+}
+
+@keyframes colores {
+    0% {
+        background-color: white;
+    }
+
+    20% {
+        background-color: pink;
+    }
+
+    40% {
+        background-color: violet;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    80% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}

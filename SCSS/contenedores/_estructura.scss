@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    background-image: linear-gradient(to bottom, $secundario, $primario);
+    position: fixed;
+    top:0px;
+    /* despues de mucho investigar, este pequeño comando hizo que las imagenes quedaran por detras del header */
+    z-index: 1;
+
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    margin: 5px;
+    padding: 35px;
+}
+
+section {
+    background-color: transparent;
+}
+
+span {
+    background-color: yellow;
+}
+
+
+footer {
+    background-image: linear-gradient(to top, $secundario, $primario);
+}
+
+.espacioNav {
+    word-spacing: 15pt;
+}

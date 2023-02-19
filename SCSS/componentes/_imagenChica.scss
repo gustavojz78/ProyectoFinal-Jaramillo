@@ -1,0 +1,21 @@
+/* Clases para reducir imagenes y transiciones */
+.imagenChica {
+
+    /* haciendo uso del MIXIN */
+    @include ancho_alto(200px, 200px);
+    filter:grayscale(1);
+    transition: all 1s;
+
+    &:hover {
+
+        @include ancho_alto(250px, 250px);
+        filter:none;
+    }
+}
+
+/* Clase para los bordes de las imagenes*/
+.bordes {
+    border-width: 7px;
+    border-style: ridge;
+    border-color: silver;
+}

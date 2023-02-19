@@ -1,0 +1,1 @@
+No coloque nada porque use la extension de SCSS.
