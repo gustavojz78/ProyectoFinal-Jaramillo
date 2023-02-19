@@ -32,6 +32,7 @@ span {
 }
 
 footer {
+  width: 100%;
   background-image: linear-gradient(to top, silver, black);
 }
 
