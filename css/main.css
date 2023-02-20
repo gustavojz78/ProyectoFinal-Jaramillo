@@ -143,7 +143,6 @@ h3 {
   .encabezado {
     grid-area: encabezado;
     text-align: center;
-    align-items: center;
   }
   .principal {
     grid-area: principal;
