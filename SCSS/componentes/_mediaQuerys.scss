@@ -21,7 +21,7 @@
 
     .principal {
         grid-area: principal;
-        margin-top: 350px;
+        margin-top: 370px;
         text-align: center;
         align-items: center;
     }
@@ -53,8 +53,10 @@
         display: grid;
         /*recordar que estos nombres solo son referenciales, puedo llamar las clases del grid como quiera */
         grid-template-areas:
+
             "principal principal publicidad"
             "principal principal publicidad"
+           
         ;
         grid-template-rows: auto auto auto;
         grid-template-columns: auto auto auto;
@@ -63,7 +65,7 @@
     .encabezado {
         grid-area: encabezado;
         justify-content: left;
-        align-items: center;
+        align-items:center;
     }
 
     .principal {

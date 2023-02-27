@@ -20,24 +20,33 @@
 
 <body class="fondo">
 
-
     <header id=gridContainer class="encabezado">
 
-        <div class="container">
+        <div class="container-fluid">
             <!-- Logo de la compañía y link en las otras paginas para volver al index-->
             <img src="assets/inoxitylogo.jpg" alt="Logo de la compañia" />
         </div>
-        <div class="container">
-            <nav>
-                <!-- Botones de navegación usando Bootstrap-->
-                <ul class="espacioNav">
-                    <li class="nav-item"><a class="nav-link" href="./pages/quienesSomos.html"> Quienes-somos? </a></li>
-                    <li class="nav-item"><a class="nav-link" href="./pages/productos.html"> Productos </a></li>
-                    <li class="nav-item"><a class="nav-link" href="./pages/registro.html"> Registro </a></li>
-                    <li class="nav-item"><a class="nav-link" href="./pages/contacto.html"> Contáctanos </a></li>
-                </ul>
-            </nav>
-        </div>
+
+        <nav class="navbar navbar-expand-lg color_nav" data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <!-- Botones de navegación usando Bootstrap  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <!-- utilizando la clase espacioNav dentro de los list item para cambiar el color del menú-->
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./pages/quienesSomos.html"> Quienes-somos? </a></li>
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./pages/productos.html"> Productos</a></li>
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./pages/registro.html"> Registro </a></li>
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./pages/contacto.html"> Contáctanos</a></li>
+                    </ul>
+                </div>
+        </nav>
 
     </header>
 
@@ -107,10 +116,10 @@
 
             <a href="https://mail.google.com/"><img src="./assets/email.png" alt="icono de email"
                     class="imagenLogo"></a>
-       
+
             <a href="https://www.instagram.com/inoxity.ve/"><img src="./assets/instagram.png" alt="icono de instagram"
                     class="imagenLogo"></a>
-     
+
             <a href="https://www.facebook.com/inoxity.jaramillo.31"><img src="./assets/facebook.png"
                     alt="icono de facebook" class="imagenLogo"></a>
         </div>
