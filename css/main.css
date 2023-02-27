@@ -37,8 +37,8 @@ footer {
 }
 
 .espacioNav {
-  color: silver;
   word-spacing: 10pt;
+  color: silver;
 }
 
 /* clase para colocar la imagen de fondo de todas las paginas */
@@ -147,7 +147,7 @@ h3 {
   }
   .principal {
     grid-area: principal;
-    margin-top: 350px;
+    margin-top: 370px;
     text-align: center;
     align-items: center;
   }
