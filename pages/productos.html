@@ -25,18 +25,33 @@
     <header id=gridContainer class="encabezado">
 
         <div>
+            <!-- Logo de la compañía y link en las otras paginas para volver al index-->
             <a href="../index.html"><img src="../assets/inoxitylogo.jpg" alt="Logo de la compañia" /></a>
         </div>
 
-        <div class="container">
-            <nav>
-                <ul class="espacioNav">
-                    <li class="nav-item"><a class="nav-link" href="./registro.html">Registro</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./quienesSomos.html">Quienes_somos?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contáctanos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg color_nav" data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <!-- Botones de navegación usando Bootstrap  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <!-- utilizando la clase espacioNav dentro de los list item para cambiar el color del menú-->
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./quienesSomos.html">
+                                Quienes-somos?</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./registro.html"> Registro </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link espacioNav" href="./contacto.html">
+                                Contáctanos</a></li>
+                    </ul>
+                </div>
+        </nav>
     </header>
     <!--practicando gradientes-->
 
@@ -54,16 +69,20 @@
                 class="imagenChica bordes" alt="4x4 " />
             <img src="../assets/caja.jpg" class="imagenChica bordes" alt="caja de filtro rustico" />
             <h2>
-                <p>Aunque podemos realizar cualquier producto de carpintería metálica, nos hemos especializado en varios
+                <p>Aunque podemos realizar cualquier producto de carpintería metálica, nos hemos especializado en
+                    varios
                     rubros, escaleras y barandas, mesadas y parrileras, estructuras y Todoterrenos.</p>
                 <p>Somos especialistas en la elaboración de ornamentos en acero inoxidable. Nos destacamos por
                     brindar la mayor calidad y el mejor diseño.</p>
-                <p>La elegancia y acabado de nuestros productos nos distinguen. Usamos el mejor acero inoxidable para
+                <p>La elegancia y acabado de nuestros productos nos distinguen. Usamos el mejor acero inoxidable
+                    para
                     lograr un producto de calidad premium.</p>
-                <p>Tenemos años de experiencias en la elaboración de las más complejas estructuras. Nada nos detiene a
+                <p>Tenemos años de experiencias en la elaboración de las más complejas estructuras. Nada nos detiene
+                    a
                     la
                     hora de asumir los más grandes retos.</p>
-                <p>Elaboramos diversos productos en acero inoxidable para el ramo de los Todoterrenos, donde sometemos
+                <p>Elaboramos diversos productos en acero inoxidable para el ramo de los Todoterrenos, donde
+                    sometemos
                     nuestras creaciones a las más duras pruebas para probar su durabilidad y calidad.</p>
 
             </h2>
