@@ -37,7 +37,8 @@ footer {
 }
 
 .espacioNav {
-  word-spacing: 15pt;
+  color: silver;
+  word-spacing: 10pt;
 }
 
 /* clase para colocar la imagen de fondo de todas las paginas */
@@ -85,7 +86,7 @@ footer {
 li {
   display: inline-block;
   font-style: normal;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Arial";
   color: white;
   transition: all 0.25s;
@@ -184,7 +185,7 @@ h3 {
   }
   .principal {
     grid-area: principal;
-    margin-top: 180px;
+    margin-top: 220px;
     text-align: center;
     justify-items: center;
   }
